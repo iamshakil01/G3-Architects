@@ -181,12 +181,26 @@ main > section{
 .sponsors-companies img{
     filter: grayscale(100%);
 }
+.architect{
+    width: 100%;
+}
+footer p{
+    max-width: 1440px;
+    height: 100px;
+    text-align: center;
+    background-color: #FFF4E7;
+    align-content: center;
+}
+footer{
+    margin: 130px 240px;
+}
 
 
 @media screen and (max-width: 576px){
       
         .navbar,
         .nav-links,
+        .features,
         .teams {
             flex-direction: column;
         }
@@ -206,6 +220,14 @@ main > section{
         .sponsors-companies{
             gap: 50px;
             justify-items: center;
+        }
+        #experience-badge{
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+        footer p{
+            justify-content: center;
+            margin-top: 2px;
         }
         }
 
